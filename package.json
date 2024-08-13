@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"start": "vite",
-		"start:dev": "vite --mode development",
+		"start:dev": "open -a '/Applications/Safari.app' http://localhost:8000/ && vite --mode development",
 		"build": "vite build",
 		"preview": "vite preview",
 		"test": "vitest run",
